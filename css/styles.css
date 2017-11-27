@@ -1,16 +1,28 @@
-.login {
-    height: 1rem;
-    width: 3rem;
-    color: white;
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+header {
+    display: flex;
+    justify-content: flex-end;
     box-sizing: border-box;
+    background-color: dimgray;
+}
+.logo {
+    text-transform: uppercase;
+    flex-grow: 1;
+}
+.button {
+    margin: .5rem 1rem;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    color: white;
+}
+.button--primary {
     border: solid 1px gray;
     background-color:gray;
 }
-.contact-us {
-    height: 1rem;
-    width: 3rem;
-    color: white;
-    box-sizing: border-box;
+.button--secondary {
     border: solid 1px orange;
     background-color:orange;
 }
@@ -18,5 +30,8 @@
     text-decoration: none;
 }
 .share {
-
+    height: 1rem;
+    width: 1rem;
+    color:dimgray;
+    background-color: lightgrey;
 }
