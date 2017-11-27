@@ -1,0 +1,22 @@
+.login {
+    height: 1rem;
+    width: 3rem;
+    color: white;
+    box-sizing: border-box;
+    border: solid 1px gray;
+    background-color:gray;
+}
+.contact-us {
+    height: 1rem;
+    width: 3rem;
+    color: white;
+    box-sizing: border-box;
+    border: solid 1px orange;
+    background-color:orange;
+}
+*a {
+    text-decoration: none;
+}
+.share {
+
+}
